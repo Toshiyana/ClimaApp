@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993A487E2609BC240078657B /* accessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993A487D2609BC240078657B /* accessToken.swift */; };
 		995F1DC525F76699001018C6 /* WeatherViewController_oth1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F1DC425F76699001018C6 /* WeatherViewController_oth1.swift */; };
 		99B4850025F358C7002F241A /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B484FF25F358C7002F241A /* WeatherManager.swift */; };
 		99B4850425F358EC002F241A /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B4850325F358EC002F241A /* WeatherData.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993A487D2609BC240078657B /* accessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessToken.swift; sourceTree = "<group>"; };
 		995F1DC425F76699001018C6 /* WeatherViewController_oth1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController_oth1.swift; sourceTree = "<group>"; };
 		99B484FF25F358C7002F241A /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		99B4850325F358EC002F241A /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
 				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
+				993A487D2609BC240078657B /* accessToken.swift */,
 			);
 			path = Clima;
 			sourceTree = "<group>";
@@ -133,7 +136,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "App Brewery";
 				TargetAttributes = {
 					ADAA27AC231BBFAF00365194 = {
@@ -180,6 +183,7 @@
 			files = (
 				99B4850025F358C7002F241A /* WeatherManager.swift in Sources */,
 				995F1DC525F76699001018C6 /* WeatherViewController_oth1.swift in Sources */,
+				993A487E2609BC240078657B /* accessToken.swift in Sources */,
 				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
 				99B4850425F358EC002F241A /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
@@ -236,6 +240,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -296,6 +301,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

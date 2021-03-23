@@ -19,7 +19,7 @@ protocol WeatherManagerDelegate {
 struct WeatherManager {
     // qの国をユーザが指定するパラメータは後から追加する（パラメータは順番に依存しないからok）ので，以下に書かない
     // httpsをhttpとすると，暗号化されてないために安全でないリクエストとみなされてエラーになるので注意（よくあるミスらしい）
-    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=bb091df4e5beb718f2d5e607adc535ca&units=metric"
+    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=\(T.weatherAPIAccessToken)&units=metric"
     
     var delegate: WeatherManagerDelegate?
     
